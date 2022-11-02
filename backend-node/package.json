@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This project was built to demonstrate [how to incorporate Node.js backend to React.js frontend](https://medium.com/@azc242/how-to-connect-a-react-frontend-with-node-js-bccb1fb7e2bb). ## Usage In order to run this app functionally, the [frontend](https://github.com/azc242/quotes-app-demo-frontend) should also be running. To simply run the backend, run the script below and open to view in browser. This will show a JavaScript object in JSON form with a quote (with key \"text\") and author of the quote. Refreshing the page will generate a new one.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "inspirational-quotes": "^1.0.8",
+    "multer": "^1.4.5-lts.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azc242/quotes-app-demo-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/azc242/quotes-app-demo-backend/issues"
+  },
+  "homepage": "https://github.com/azc242/quotes-app-demo-backend#readme"
+}
